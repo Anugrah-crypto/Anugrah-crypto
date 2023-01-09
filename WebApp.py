@@ -11,7 +11,7 @@ from skimage.transform import resize
 from skimage.io import imread
 Categories= ['droppy', 'normal_1']
 
-model = p.load(open('E:/anaconda3/envs/biopy/Project_Skripsi/img_model.p','rb'))
+model = p.load(open('img_model.p','rb'))
 
 def predict (url):
         img=imread(url)
