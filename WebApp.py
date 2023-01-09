@@ -20,7 +20,7 @@ def predict (url):
         probability=model.predict_proba(l)  
         return probability, Categories[model.predict(l)[0]]
 st.header('Droopy Face Detection Web')
-URL= st.text_input('a')
+URL= st.text_input('Enter URL')
 #url= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jems.com%2Fpatient-care%2Fdifferentiating-facial-weakness-caused-b%2F&psig=AOvVaw0UYM6_sOpZOK5D0UDvDA3_&ust=1673328201901000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPCC_brfufwCFQAAAAAdAAAAABAE''
 with st.expander("See explanation"):
     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* tobe random."
