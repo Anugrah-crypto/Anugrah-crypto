@@ -1,3 +1,3 @@
-sckit-image
+scikit-learn
 streamlit 
 pickle
