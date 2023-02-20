@@ -1,4 +1,5 @@
 scikit-learn == 1.2.0
 streamlit 
 scikit-image
-
+opencv-python
+streamlit_webrtc
