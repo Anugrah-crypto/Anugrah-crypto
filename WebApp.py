@@ -17,9 +17,7 @@ Categories= ['droppy', 'normal_1']
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]}
-)
+RTC_CONFIGURATION = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
 
 model = p.load(open('E:/anaconda3/envs/biopy/Project_Skripsi/img_model.p','rb'))
 class VideoProcessor:
