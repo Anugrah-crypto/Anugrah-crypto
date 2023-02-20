@@ -58,7 +58,7 @@ class VideoProcessor:
 
 #       st.image(frame)
 
-st.title("Real-time Face Recognition")
+st.title("Real-time Stroke Face Recognition")
 webrtc_streamer(key="key", video_processor_factory=VideoProcessor, media_stream_constraints={"video": True, "audio": False},
     async_processing=False, rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},)
 #video_stream()
