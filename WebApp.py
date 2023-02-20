@@ -19,7 +19,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 
 #RTC_CONFIGURATION = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
 
-model = p.load(open('E:/anaconda3/envs/biopy/Project_Skripsi/img_model.p','rb'))
+model = p.load(open('img_model.p','rb'))
 class VideoProcessor:
     def recv(self, frame):
         img = frame.to_ndarray(format="bgr24")
