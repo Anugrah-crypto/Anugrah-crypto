@@ -4,4 +4,4 @@ scikit-image
 numpy
 opencv-python-headless
 streamlit_webrtc
-tensorflow-gpu
+
